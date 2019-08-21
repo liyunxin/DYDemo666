@@ -35,7 +35,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   DYDemoLogin666:
-    :commit: d333995d696a49949a1f5d24dc7cdb25fb8f4aa1
+    :commit: d6c19460c88543c374bd94e9d14799818b186044
     :git: https://github.com/liyunxin/DYDemoLogin666.git
 
 SPEC CHECKSUMS:

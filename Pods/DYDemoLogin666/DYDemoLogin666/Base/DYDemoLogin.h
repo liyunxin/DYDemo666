@@ -7,6 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import "DYDemoLoginData.h"
+#import "CTMediator+DYDemoLogin.h"
 
 @interface DYDemoLogin : NSObject
 
