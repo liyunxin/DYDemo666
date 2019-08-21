@@ -1,0 +1,6 @@
+framework module Pods_DYDemo666 {
+  umbrella header "Pods-DYDemo666-umbrella.h"
+
+  export *
+  module * { export * }
+}

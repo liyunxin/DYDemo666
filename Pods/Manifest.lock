@@ -1,0 +1,22 @@
+PODS:
+  - DYDemoTools (0.0.1):
+    - DYDemoTools/0_Base (= 0.0.1)
+    - DYDemoTools/1_Tools (= 0.0.1)
+    - DYDemoTools/2_View (= 0.0.1)
+  - DYDemoTools/0_Base (0.0.1)
+  - DYDemoTools/1_Tools (0.0.1)
+  - DYDemoTools/2_View (0.0.1)
+
+DEPENDENCIES:
+  - DYDemoTools
+
+SPEC REPOS:
+  http://github.com/liyunxin/DYDemoSpecs.git:
+    - DYDemoTools
+
+SPEC CHECKSUMS:
+  DYDemoTools: 922227220bf194080a1a507d42af2d8c05e059f9
+
+PODFILE CHECKSUM: f3204e4044ca57f72c8bde8c9b1e506eb48be101
+
+COCOAPODS: 1.7.3

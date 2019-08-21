@@ -1,0 +1,6 @@
+framework module DYDemoTools {
+  umbrella header "DYDemoTools-umbrella.h"
+
+  export *
+  module * { export * }
+}
