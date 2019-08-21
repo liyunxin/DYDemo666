@@ -1,22 +1,47 @@
 PODS:
-  - DYDemoTools (0.0.1):
-    - DYDemoTools/0_Base (= 0.0.1)
-    - DYDemoTools/1_Tools (= 0.0.1)
-    - DYDemoTools/2_View (= 0.0.1)
-  - DYDemoTools/0_Base (0.0.1)
-  - DYDemoTools/1_Tools (0.0.1)
-  - DYDemoTools/2_View (0.0.1)
+  - DYDemoLogin666 (0.0.1):
+    - DYDemoLogin666/0_Base (= 0.0.1)
+    - DYDemoLogin666/1_Tools (= 0.0.1)
+    - DYDemoLogin666/2_Data (= 0.0.1)
+    - DYDemoLogin666/3_Controller (= 0.0.1)
+    - DYDemoTools
+  - DYDemoLogin666/0_Base (0.0.1):
+    - DYDemoTools
+  - DYDemoLogin666/1_Tools (0.0.1):
+    - DYDemoTools
+  - DYDemoLogin666/2_Data (0.0.1):
+    - DYDemoTools
+  - DYDemoLogin666/3_Controller (0.0.1):
+    - DYDemoTools
+  - DYDemoTools (0.0.3):
+    - DYDemoTools/0_Base (= 0.0.3)
+    - DYDemoTools/1_Tools (= 0.0.3)
+    - DYDemoTools/2_View (= 0.0.3)
+  - DYDemoTools/0_Base (0.0.3)
+  - DYDemoTools/1_Tools (0.0.3)
+  - DYDemoTools/2_View (0.0.3)
 
 DEPENDENCIES:
+  - DYDemoLogin666 (from `https://github.com/liyunxin/DYDemoLogin666.git`)
   - DYDemoTools
 
 SPEC REPOS:
   http://github.com/liyunxin/DYDemoSpecs.git:
     - DYDemoTools
 
-SPEC CHECKSUMS:
-  DYDemoTools: 922227220bf194080a1a507d42af2d8c05e059f9
+EXTERNAL SOURCES:
+  DYDemoLogin666:
+    :git: https://github.com/liyunxin/DYDemoLogin666.git
 
-PODFILE CHECKSUM: f3204e4044ca57f72c8bde8c9b1e506eb48be101
+CHECKOUT OPTIONS:
+  DYDemoLogin666:
+    :commit: d333995d696a49949a1f5d24dc7cdb25fb8f4aa1
+    :git: https://github.com/liyunxin/DYDemoLogin666.git
+
+SPEC CHECKSUMS:
+  DYDemoLogin666: 243a391afd2a1ff10714e66a3d9199721046abc8
+  DYDemoTools: 69f5f6c51dcc183e243a35d3313c077a0f75a31b
+
+PODFILE CHECKSUM: d3973597722038cfe14526b7bb437e51495adf71
 
 COCOAPODS: 1.7.3

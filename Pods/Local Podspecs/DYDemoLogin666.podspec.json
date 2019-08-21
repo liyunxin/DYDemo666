@@ -1,0 +1,50 @@
+{
+  "name": "DYDemoLogin666",
+  "version": "0.0.1",
+  "summary": "A short description of DYDemoLogin666.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/liyunxin/DYDemoLogin666",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liyunxin": "447674668@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/liyunxin/DYDemoLogin666.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "frameworks": "UIKit",
+  "dependencies": {
+    "DYDemoTools": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "0_Base",
+      "source_files": "DYDemoLogin666/Base/**/*.{h,m}",
+      "resource_bundles": {
+        "DYDemoLogin666": [
+          "DYDemoLogin666/Base/*.xcassets"
+        ]
+      }
+    },
+    {
+      "name": "1_Tools",
+      "source_files": "DYDemoLogin666/Tools/**/*.{h,m}"
+    },
+    {
+      "name": "2_Data",
+      "source_files": "DYDemoLogin666/Data/**/*.{h,m}"
+    },
+    {
+      "name": "3_Controller",
+      "source_files": "DYDemoLogin666/Controller/**/*.{h,m}"
+    }
+  ]
+}

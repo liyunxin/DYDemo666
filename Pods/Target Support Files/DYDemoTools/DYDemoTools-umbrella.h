@@ -11,6 +11,7 @@
 #endif
 
 #import "DYDemoToolsHeader.h"
+#import "CTMediator.h"
 #import "DYDemoTools.h"
 #import "KHBarButton.h"
 

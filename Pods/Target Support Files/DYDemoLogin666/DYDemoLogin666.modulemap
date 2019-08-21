@@ -1,0 +1,6 @@
+framework module DYDemoLogin666 {
+  umbrella header "DYDemoLogin666-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -15,12 +15,28 @@
 
 @implementation ViewController
 
+- (void)loginBtnClick:(UIButton *)btn {
+    __weak typeof(self) weakSelf = self;
+    UINavigationController *nVC = [DYDemoLogin dy_goLogin:^{
+        weakSelf.navigationItem.title = [DYDemoLoginData share].userName;
+    }];
+    [self presentViewController:nVC animated:YES completion:nil];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     __weak typeof(self) weakSelf = self;
     self.navigationItem.rightBarButtonItem = [[KHBarButton rightBtnWithTitle:@"哈哈哈" Color:[UIColor blackColor] ClickOption:^{
         [weakSelf addImageDemo];
     }] getBarItem];
+    
+    UIButton *loginBtn = [UIButton buttonWithType:(UIButtonTypeCustom)];
+    loginBtn.frame = CGRectMake(0, 0, 100, 100);
+    loginBtn.center = CGPointMake(self.view.frame.size.width * 0.5, self.view.frame.size.height * 0.5);
+    [loginBtn setTitle:@"去登录" forState:(UIControlStateNormal)];
+    [loginBtn setTitleColor:[UIColor blackColor] forState:(UIControlStateNormal)];
+    [loginBtn addTarget:self action:@selector(loginBtnClick:) forControlEvents:(UIControlEventTouchUpInside)];
+    [self.view addSubview:loginBtn];
 }
 
 - (void)addImageDemo {

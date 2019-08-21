@@ -10,5 +10,6 @@
 
 #import "KHBarButton.h"
 #import "DYDemoTools.h"
+#import "CTMediator.h"
 
 #endif /* DYDemoToolsHeader_h */

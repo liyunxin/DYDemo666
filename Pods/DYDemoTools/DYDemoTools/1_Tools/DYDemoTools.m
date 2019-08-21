@@ -9,7 +9,6 @@
 
 @implementation DYDemoTools
 
-///获取DYDemoTools这个Bundle的图片
 + (UIImage *)getToolsBundleImage:(NSString *)imageName {
     static NSBundle *bundle;
     if (bundle == nil) {

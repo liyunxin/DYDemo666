@@ -161,9 +161,11 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/DYDemoLogin666/DYDemoLogin666.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/DYDemoTools/DYDemoTools.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/DYDemoLogin666/DYDemoLogin666.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/DYDemoTools/DYDemoTools.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

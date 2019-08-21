@@ -9,7 +9,6 @@
 
 @interface DYDemoTools : NSObject
 
-///获取KHealthTools这个Bundle的图片
 + (UIImage *)getToolsBundleImage:(NSString *)imageName;
 
 @end
